@@ -1,0 +1,21 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#description {
+	float: left;
+	left: 0px;
+	font-size: 14px;
+	width: 50%;
+	padding-right: 25px;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+#register {
+	float: right;
+	right: 0px;
+	width: 50%;
+	padding-left: 25px;
+	padding-right: 15px;
+	padding-top: 10px;
+}
