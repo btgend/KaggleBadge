@@ -1,4 +1,4 @@
-This is the repository for the KaggleBadge project. The idea is to generate badges for competitions hosted on www.kaggle.com.
+This is the repository for the KaggleBadge project. The idea is to generate badges for competitions hosted on kaggle.
 
 The running webapp can be found under "https://kaggle-badge.herokuapp.com"
 
