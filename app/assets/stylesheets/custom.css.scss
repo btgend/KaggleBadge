@@ -19,3 +19,44 @@
 	padding-right: 15px;
 	padding-top: 10px;
 }
+
+@mixin box_sizing {
+	-moz-box-sizing: border-box;
+	-ebkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.debug_dump {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 45px;
+	@include box_sizing;
+}
+
+.profile {
+	width: 30%;
+	float: left;
+}
+
+.challenges {
+	width: 70%;
+	float: right;
+
+	.list-group {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+.link-input { 
+	padding: 0 5px 0 0;
+	overflow: hidden; 
+
+	.link-input-box {
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
