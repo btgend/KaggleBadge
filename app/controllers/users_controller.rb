@@ -12,7 +12,9 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     @challenges = Challenge.where(:team_id => params[:id])
+    @challenge_add = Challenge.new
   end
+
 
   private
     def user_params
